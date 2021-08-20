@@ -1,0 +1,398 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif !important;
+ }
+ 
+ button , input{
+     font-family: 'Montserrat', sans-serif !important;
+ }
+
+
+.entête{
+    display: flex;
+    justify-content: space-between;
+   
+    height: 50px;
+    
+}
+
+.contain1{
+    
+    height: 50px;
+}
+
+.contain2{
+    
+    height: 50px;
+    float: right;
+    margin-bottom: 100px;
+}
+
+.container3{
+    display: flex;
+    
+    height: 300px;
+    margin-top: 40px;
+    width: 1100px;
+}
+
+.entête2{
+    display: flex;
+    background-image: url("/CSS/cerceau-rond-bleu-50-a-85-cm.jpg");
+}
+
+.entête3{
+    
+    height: 140px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.img8{
+    height: 100px;
+    width: 200px;
+}
+
+.entête4{
+    display: flex;
+ 
+    height: 400px;
+    justify-content: center;
+}
+
+
+.card0{
+    display: flexbox;
+}
+
+.containeritems{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 100px;
+
+margin-bottom: 10px;
+position:absolute;
+margin-left: 300px;
+}
+
+.container5-2{
+margin-left: 250px;
+}
+.entête5{
+    display: flex;
+
+}
+
+.card0 h1{
+    font-size: 80px;
+    font-weight: bold;
+    color:violet ;
+}
+
+
+
+.card1{
+    
+    height: 200px;
+    width: 200px;
+    margin-right: 15px;
+    border-radius: 30px;
+    box-shadow:0px 0px 12px -5px rgb(0, 0, 18) ;
+}
+
+.card2{
+   
+    height: 200px;
+    width: 200px;
+    margin-right: 15px;
+    border-radius: 30px;
+    box-shadow:0px 0px 12px -5px rgb(0, 0, 18) ;}
+
+
+.card3{
+    
+    height: 200px;
+    width: 200px;
+    margin-right: 15px;
+    border-radius: 30px;
+    box-shadow:0px 0px 12px -5px rgb(0, 0, 18) ;
+}
+
+
+a:hover{
+    padding: 30px;
+    position: relative;
+    transition: all .3s ease-in-out;
+}
+
+
+.card1:hover{
+  
+    padding: 30px;
+    position: relative;
+    transition: all .3s ease-in-out;
+    border: 2px solid #f7f6f9;
+    background-color: #7562e0;
+}
+
+.card2:hover{
+    padding: 30px;
+    position: relative;
+    transition: all .3s ease-in-out;
+    border: 2px solid #f7f6f9;
+    background-color: #7562e0
+
+}
+
+.card3:hover{
+    padding: 30px;
+    position: relative;
+    transition: all .3s ease-in-out;
+    border: 2px solid #f7f6f9;
+    background-color: #7562e0
+
+}
+.cardcontainer1{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+    transition: all .3s ease-in-out;
+    justify-content: center;
+    position: absolute;
+}
+
+.cardcontainer2{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+    transition: all .3s ease-in-out;
+    justify-content: center;
+    position: absolute;
+}
+
+.cardcontainer3{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+    transition: all .3s ease-in-out;
+    justify-content: center;
+    position: absolute;
+}
+
+
+.fas fa-drafting-compass{
+margin-bottom: 100px;
+}
+
+h4{
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.containeritems0{
+    
+    display: flex;
+    color: #7562E0;
+    font-size: 1rem;
+    margin-left: 200px;
+    height: 60px;
+    font-size: 1.5rem;
+    margin-left: 600px;
+}
+
+.picturecontent1{
+   display: flex;
+   justify-content: space-around;
+}
+
+.picturecontent2{
+    display: flex;
+    justify-content: space-around;
+   margin-top: 20px;
+}
+
+.pict1{
+height: 300px;
+
+width: 300px;
+
+}
+
+.pict2{
+height: 300px;
+
+width: 300px;
+
+}
+
+.pict3{
+    height: 300px;
+
+width: 300px;
+
+}
+
+.pict4{
+    height: 300px;
+
+width: 300px;
+
+}
+
+.pict5{
+    height: 300px;
+
+width: 300px;
+
+}
+
+.pict6{
+    height: 300px;
+transition: ease-in-out 3s;
+width: 300px;
+}
+
+
+
+.picture img{
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: ease-in-out 3s;
+    position: relative;
+    top: 0;
+}
+
+.picture img:hover{
+    transform:translatey(-75%)
+}
+
+.testcard1 {
+    box-shadow: 0px 0px 23px -5px rgb(0 0 0 / 18%);
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 20px;
+    width: 31%;
+    margin-right: 10px;
+    transition: all .3s ease-in-out;
+    height: 320px;
+}
+
+.playstore{
+    height: 60px;
+}
+
+.playcard{
+    margin-top: 280px;
+    
+    height: 70px;
+    position: absolute;
+    margin-left: 800px;
+}
+
+.incard1{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid var(--violet);
+    
+}
+
+.fas fa-quote-right{
+    color: rgba(204, 204, 204, 0.377);
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 60px;
+    transition: all .3s ease-in-out;
+    
+}
+
+.phrase{
+   justify-content: center;
+   
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+span{
+    font-size: 17px;
+    color: #ccc;
+}
+
+
+.contain7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+section{
+    position: absolute;
+    display: flex;
+    
+    margin-top: 510px;
+    justify-content: space-between;
+}
+
+.phrase1{
+    display: block;
+   
+    height: 200px;
+    width: 800px;
+    
+}
+
+.fig{
+    border: red 3px solid;
+    border-radius: 300px;
+    height: 300px;
+    width: 300px;
+    margin-left: 400px;
+}
+
+input{
+    height: 50px;
+    width: 350px;
+}
+
+button{
+    background: none;
+    border: 2px solid #625C7E;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+
+
+.testcard1:hover{
+    transition: all 3s ease-in-out;
+
+}

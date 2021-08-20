@@ -1,0 +1,38 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+   font-family: 'Montserrat', sans-serif !important;
+}
+
+button , input{
+    font-family: 'Montserrat', sans-serif !important;
+    width: 100px;
+    height: 50px;
+    border-color: #7562E0;
+}
+ --violet : #7562E0;
+    --dark : #625C7E;
+
+
+
+   .far fa-drafting-compass{
+      color: black;
+   }
+
+header{
+   background-color: wheat;
+}
+main{
+   background-color: whitesmoke;
+}
+footer{
+   background-color: turquoise;
+}
+.b:hover{
+   background-color: violet;
+   
+}
